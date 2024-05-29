@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #task-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  #task-table th, #task-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  #task-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  #task-table td {
+    cursor: pointer;
+  }
+  
+  #task-table td.pending {
+    color: #f00;
+  }
+  
+  #task-table td.completed {
+    color: #0f0;
+  }
